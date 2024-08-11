@@ -1,13 +1,10 @@
 import react from 'react'
-import Calendar from "./class-component"
+import { Header, Content , Footer } from './func-components'
 
-
-export default function App (){
-
-  return (
-    <>
-      <p><center><Calendar/></center></p>
-    </>
+function App(){
+  return(
+    [<Header/>,<Content/>,<Footer/>]
   )
-}
 
+}
+export default App
