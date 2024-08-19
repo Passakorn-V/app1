@@ -1,9 +1,9 @@
 import react from 'react'
-import { Header, Content , Footer } from './func-components'
+import MassageBox from './state-func'
 
 function App(){
   return(
-    [<Header/>,<Content/>,<Footer/>]
+    <MassageBox/>
   )
 
 }
